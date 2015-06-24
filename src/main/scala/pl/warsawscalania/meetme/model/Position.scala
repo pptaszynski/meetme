@@ -6,3 +6,4 @@ package pl.warsawscalania.meetme.model
 case class Position(lat: Double, long :Double, user : String)
 
 case class Output( users : Seq[Position] )
+
